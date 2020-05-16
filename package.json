@@ -41,5 +41,4 @@
     ]
   },
   "proxy": "https://us-central1-socailapp-d02a8.cloudfunctions.net/api"
-
 }
