@@ -71,7 +71,7 @@ const CommentDialog = ({
     if (openDialog) {
       handleOpen()
     }
-  }, [])
+  })
 
   const handleOpen = () => {
     let oldPath = window.location.pathname

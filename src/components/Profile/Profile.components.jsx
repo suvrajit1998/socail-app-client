@@ -122,7 +122,7 @@ const Profile = ({
           <div className="profile-details">
             <MuiLink
               component={Link}
-              to={`/users/${handle}`}
+              to={`/user/${handle}`}
               color="primary"
               variant="h5"
             >

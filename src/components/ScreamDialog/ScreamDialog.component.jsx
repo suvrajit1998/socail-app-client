@@ -75,7 +75,7 @@ const ScreamDialog = ({
     if (openDialog) {
       handleOpen()
     }
-  }, [])
+  })
 
   const handleOpen = () => {
     let oldPath = window.location.pathname
