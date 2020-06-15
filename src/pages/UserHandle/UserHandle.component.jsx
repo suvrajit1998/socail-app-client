@@ -28,7 +28,7 @@ const UserHandle = ({ getUserData, match, data }) => {
         setprofile(res.data.user)
       })
       .catch((ex) => console.log(ex))
-  }, [])
+  }, [getUserData, match, data])
 
   const ScreamMarkUp = loading ? (
     <ScreamSkeleton />
